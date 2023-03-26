@@ -12,7 +12,7 @@ all: step_bin step_password helm_values
 	@echo "#####    NOT RUNNING - do it yourself  #####" 
 	@echo "############################################"
 	@echo
-	@echo "read HOWTO.txt... (a bit redudant :)"
+	@echo "read HOWTO.txt... (a bit redundant :)"
 	@echo
 	@echo
 	@echo
