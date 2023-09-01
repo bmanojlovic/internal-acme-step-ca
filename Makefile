@@ -2,7 +2,7 @@ STEP_NS ?= step
 STEP_URL ?= step-certificates.$(STEP_NS).svc.cluster.local
 STEP_NAME ?= Smallstep
 STEP_ADMIN ?= boris@steki.net
-STEP_VERSION ?= 0.23.4
+STEP_VERSION ?= 0.24.2
 STEP_ARCHIVE := https://dl.step.sm/gh-release/cli/gh-release-header/v$(STEP_VERSION)/step_linux_$(STEP_VERSION)_amd64.tar.gz
 
 all: step_bin step_password helm_values
